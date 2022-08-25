@@ -38,7 +38,8 @@ import { LoginComponent } from './components/login/login.component';
     AppRoutingModule,
     // Specify ng-circle-progress as an import
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
